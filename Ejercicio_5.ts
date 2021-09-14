@@ -1,4 +1,4 @@
-/* 
+/*
     CLASES QUE IMPLEMENTAN INTERFACES
     Hemos aprendido qué son las interfaces y qué son las clases. Pues bien,
     podemos hacer que una clase implemente una interfaz. Ya que estamos, échale
@@ -16,14 +16,20 @@ interface Animal {
 // Modifica el código bajo esta línea
 
 class Cat implements Animal {
-  constructor(private name) {}
+  constructor(public name: string) {}
 
   getNoise() {
-    return 4;
+    return "miau";
   }
 }
 
-class Dog implements Animal {}
+class Dog implements Animal {
+  constructor(public name: string) {}
+
+  getNoise() {
+    return "guau";
+  }
+}
 
 // Modifica el código sobre esta línea
 

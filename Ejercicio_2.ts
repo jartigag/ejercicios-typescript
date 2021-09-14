@@ -1,4 +1,4 @@
-/* 
+/*
     ACEPTANDO VARIOS TIPOS EN UNA VARIABLE
     Podemos aceptar varios tipos en una variable, ¿sabrías cómo?
     Una pista: Typescript union types. Google es tu amigo ;)
@@ -12,7 +12,7 @@
 
 // Modifica el código a partir de esta línea
 
-let aTextOrNumber: number = 5;
+let aTextOrNumber: number | string = 5;
 
 // Modifica el código sobre esta línea
 

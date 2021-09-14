@@ -1,4 +1,4 @@
-/* 
+/*
     DEFINIENDO ENUMERADOS
     Typescript nos permite crear enumerados, que podríamos definir como un
     listado de constantes. Veamos un ejemplo
@@ -20,6 +20,12 @@ enum Personaje {
 function getName(personaje: Personaje): string {
   if (personaje === Personaje.Bueno) {
     return 'Rubio';
+  } else if (personaje === Personaje.Malo) {
+    return 'Sentencia';
+  } else if (personaje === Personaje.Feo) {
+    return 'Tuco';
+  } else {
+    return '';
   }
 }
 

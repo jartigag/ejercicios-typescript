@@ -37,7 +37,7 @@ const personaje2: Personaje = {
 };
 
 // Modifica el código bajo esta línea
-const getName = (animal: Animal) => {};
+const getName = (animal: Animal) => { return animal.name ?? 'Toby' };
 // Modifica el código sobre esta línea
 
 console.log(

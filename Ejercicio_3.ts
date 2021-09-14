@@ -1,4 +1,4 @@
-/* 
+/*
     DEFINIENDO INTERFACES
     También podemos definir una interfaz en Typescript. Te diría lo que hace
     pero mejor se lo dejaremos a la documentación oficial:
@@ -15,10 +15,13 @@
 interface Personajes {
   elBueno: string;
   elFeo: string;
+  elMalo: string;
 }
 
 const personajes: Personajes = {
   elBueno: 'Rubio',
+  elFeo: 'Tuco',
+  elMalo: 'Sentencia'
 };
 
 // Modifica el código sobre esta línea

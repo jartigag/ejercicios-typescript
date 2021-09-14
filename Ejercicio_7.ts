@@ -1,4 +1,4 @@
-/* 
+/*
     STRINGS EN ENUMERADOS
     Los enumerados también pueden contener strings. A ver si sabes cómo ;)
 
@@ -11,9 +11,9 @@
 // Modifica el código bajo esta línea
 
 enum PersonajeStrings {
-  Bueno,
-  Feo,
-  Malo,
+  Bueno = "Rubio",
+  Feo = "Tuco",
+  Malo = "Sentencia",
 }
 
 // Modifica el código sobre esta línea
