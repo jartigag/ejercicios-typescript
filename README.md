@@ -1,3 +1,7 @@
+forked from [https://github.com/Biko-School/ejercicios-typescript](https://github.com/Biko-School/ejercicios-typescript)
+
+---
+
 # Ejercicios para Typescript
 
 En este repositorio encontrarás varios ejercicios, en los que verás diferentes temas relacionados con Typescript:
